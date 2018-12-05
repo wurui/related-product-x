@@ -2,9 +2,16 @@
   "RULE_VERSION":"20180724",
   "name": "related-product-x",
   "apiDependencies": [
-  {
-    "name": "ui-sale"
-  }
-]
+	  {
+	    "name": "ecom-products",
+	    "LINK":[
+	    	{
+	    		"name":"detail",
+	    		"title":"查看详情"
+	    	}
+	    ]
+
+	  }
+	]
 }
 
